@@ -8,7 +8,7 @@
     <!-- <link rel="stylesheet" href="wow/animate.min.css"> -->
     <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <script src="https://kit.fontawesome.com/76c970a45b.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/8ed4ee6609.js" crossorigin="anonymous"></script>
     <link rel="icon" sizes="32x32" href="media/favicons/favicon-32x32.png">
     <link rel="stylesheet" href="styles.css">
 </head>
@@ -16,14 +16,16 @@
 <body>
     <section id="landing" class="text-white">
         <video autoplay muted loop class="position-fixed">
-            <source src="media/v.mp4" type="video/mp4">
-        </video>
+                <source src="media/v.mp4" type="video/mp4">
+            </video>
+
         <div class="container">
             <nav class="navbar navbar-expand-lg navbar-dark pt-4 px-0 bg-transparent align-items-start">
-                <a href="#" class="navbar-brand">Together Done</a>
-                <button class="navbar-toggler" data-toggle='collapse' data-target="#navBarSupportedContent">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+                <a class="navbar-brand" href="#">Together Done</a>
+                <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarSupportedContent" type="button" name="button">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
                 <div class="collapse navbar-collapse ml-auto flex-grow-0" id="navbarSupportedContent">
                     <ul class="navbar-nav">
                         <li class="nav-item ml-4 active"><a class="nav-link px-2" href="#">Home</a></li>
@@ -42,12 +44,59 @@
                     </ul>
                 </div>
             </nav>
+
+            <div id="content" class="row align-items-center">
+                <div class="col-lg-6">
+                    <h1 class="display-4 font-weight-bold text-center text-lg-left">Together Done</h1>
+                    <h2 class="h1 font-weight-bold text-dark text-center text-lg-left">Uber Heading Ultra Cool</h2>
+                    <button class="btn btn-lg rounded-pill my-4 d-block mx-auto ml-lg-0">Learn More</button>
+                </div>
+                <div class="col-lg-6 mt-5 mt-lg-0">
+                    <h3 class="font-weight-bold text-center text-lg-left">Lorem Ipsum Header</h3>
+                    <h4 class="font-weight-light text-center text-lg-left">Check out what we can do for you.</h4>
+                    <div class="dimmed rounded text-dark mt-4 d-flex flex-column align-items-center align-items-lg-start">
+                        <div class="d-flex align-items-center">
+                            <i class="fas h4 fa-check-circle mx-3 text-success"></i>
+                            <div class="my-3">
+                                <h6 class="font-weight-bold mb-0">Lorem ipsum dolor sit amet.</h6>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-center">
+                            <i class="fas h4 fa-check-circle mx-3 text-success"></i>
+                            <div class="my-3">
+                                <h6 class="font-weight-bold mb-0">Lorem ipsum dolor sit amet.</h6>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-center">
+                            <i class="fas h4 fa-check-circle mx-3 text-success"></i>
+                            <div class="my-3">
+                                <h6 class="font-weight-bold mb-0">Lorem ipsum dolor sit amet.</h6>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
         </div>
+
+
     </section>
 
+    <section id="our-team"></section>
 
 
+    <!-- Wow js -->
+    <script src="wow/wow.min.js"></script>
+    <script src="wow/wow-activate.js"></script>
 
+    <!-- Google Maps -->
+    <script src="initMap.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBRIN6EBUHnSy7NoBjFgjtUAIwcFoECDao&callback=initMap" async defer></script>
 
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
